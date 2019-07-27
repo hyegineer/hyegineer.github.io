@@ -355,10 +355,9 @@ img {
   margin: 0;
   color: $darkGray;
   cursor: pointer;
-  font-family: $helveticaNeue;
+  font-family: $kanit;
   font-weight: 300;
   font-size: 35px;
-  letter-spacing: 1px;
 }
 
 .site-description {
@@ -374,8 +373,8 @@ img {
 nav {
   float: right;
   margin-top: 23px; // @TODO: Vertically middle align
-  font-family: $helveticaNeue;
-  font-size: 18px;
+  font-family: $sourceCode;
+  font-size: 16px;
 
   @include mobile {
     float: none;
@@ -389,7 +388,6 @@ nav {
     color: $darkGray;
     text-align: right;
     font-weight: 300;
-    letter-spacing: 1px;
 
     @include mobile {
       margin: 0 10px;
@@ -419,6 +417,7 @@ nav {
     font-size: $small-font-size;
     color: $base-lighten-color;
     margin-right: 3px;
+    font-family: $sourceCode;
   }
 
   .tag {
