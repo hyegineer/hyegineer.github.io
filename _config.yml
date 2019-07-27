@@ -6,7 +6,7 @@
 name: Hyegineer
 
 # Short bio or description (displayed in the header)
-description: 'Web Publisher jeong :runner: :runner:'
+description: 'Markup engineer, Web engineer :runner: :runner:'
 
 #
 # Flags below are optional
@@ -28,8 +28,6 @@ navigation:
     url: /archive
   - name: Tags
     url: /tags
-  - name: Theme
-    url: http://127.0.0.1:4000
 
 # Pagination
 paginate: 5
@@ -38,12 +36,12 @@ paginate: 5
 footer-links:
   behance: # https://www.behance.net/<username>
   dribbble:
-  email:
+  email: hyegineer@gmail.com
   facebook:
   flickr:
-  github: hyegineer/kiko-now
+  github: hyegineer
   googleplus: # anything in your profile username that comes after plus.google.com/
-  instagram:
+  instagram: hyegineer
   linkedin:
   pinterest:
   rss: # just type anything here for a working RSS icon
@@ -53,7 +51,7 @@ footer-links:
   youtube: # channel/<your_long_string> or user/<user-name>
 
 # Text under the icons in footer
-footer-text: © 2017 Kiko Now
+footer-text: © 2019 hyegineer 
 
 # Enter your Disqus shortname (not your username) to enable commenting on posts
 # You can find your shortname on the Settings page of your Disqus account
