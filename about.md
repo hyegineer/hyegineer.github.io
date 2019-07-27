@@ -6,9 +6,12 @@ permalink: /about/
 
 정혜진입니다.
 
-### More Information
+### What can I do
 
-A place to include any other types of information that you'd like to include about yourself.
+:v: ```html5``` ```css5``` ```jquery```
+<br>
+:ok_hand: Adobe photoshop, Adobe illustrator, Adobe XD <br>
+:raised_hands: Zeplin, Trello, Vscode 
 
 ### Contact me
 
