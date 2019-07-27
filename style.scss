@@ -35,6 +35,7 @@ h1, h2, h3, h4, h5, h6 {
   line-height: 1.7;
   margin: 1em 0 15px;
   padding: 0;
+  
 
   @include mobile {
     line-height: 1.4;
@@ -632,6 +633,16 @@ img.emoji {
 
     font-family: "Kanit", "Spoqa Han Sans", "Source Sans Pro", "Apple SD Gothic Neo", "Nanum Barun Gothic", "Nanum Gothic", "Verdana", "Arial", "Dotum", sans-serif;
     letter-spacing: 1px;
+
+  }
+
+}
+
+.tags{
+
+  h2{
+
+    font-family: "Kanit", "Spoqa Han Sans", "Source Sans Pro", "Apple SD Gothic Neo", "Nanum Barun Gothic", "Nanum Gothic", "Verdana", "Arial", "Dotum", sans-serif;
 
   }
 
