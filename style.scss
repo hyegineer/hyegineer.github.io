@@ -361,7 +361,10 @@ img {
   font-weight: 300;
   font-size: 35px;
   letter-spacing: 1px;
-  margin-top: 30px;
+
+  @include mobile{
+    margin-top: 30px;
+  }
 }
 
 .site-description {
