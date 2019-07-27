@@ -523,6 +523,7 @@ nav {
     font-size: $small-font-size;
     font-weight: 300;
     margin-left: 3px;
+    font-family: $sourceCode;
   }
 }
 
@@ -584,6 +585,7 @@ footer {
 
   p {
     font-size: $small-font-size;
+    font-family: $sourceCode;
   }
 
   .svg-icon {
