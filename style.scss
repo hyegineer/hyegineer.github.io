@@ -376,7 +376,7 @@ nav {
   float: right;
   margin-top: 23px; // @TODO: Vertically middle align
   font-family: $sourceCode;
-  font-size: 16px;
+  font-size: 14px;
 
   @include mobile {
     float: none;
@@ -591,6 +591,16 @@ footer {
       left: 0;
     }
   }
+}
+
+img.emoji {
+  display: inline-block;
+  margin: 0.5em 0.2em 0.15em;
+  border-radius: 0;
+  position: relative;
+  top: 2px;
+  width: 18px;
+  height: 18px;
 }
 
 // Settled on moving the import of syntax highlighting to the bottom of the CSS
