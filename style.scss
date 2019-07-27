@@ -75,11 +75,11 @@ p {
 }
 
 a {
-  color: $link-color;
+  color: $main-link-color;
   text-decoration: none;
   cursor: pointer;
   &:hover, &:active {
-    color: $link-color;
+    color: $main-link-color;
   }
 }
 
@@ -358,12 +358,14 @@ img {
   font-family: $kanit;
   font-weight: 300;
   font-size: 35px;
+  letter-spacing: 1px;
 }
 
 .site-description {
   margin: -5px 0 0 0;
   color: $gray;
   font-size: 16px;
+  font-family: $sourceCode;
 
   @include mobile {
     margin: 3px 0;
@@ -424,6 +426,7 @@ nav {
     display: inline;
     font-weight: 300;
     font-size: $small-font-size;
+    font-family: $sourceCode;
 
     li:before {
       content: '';
