@@ -26,8 +26,8 @@ body {
 
 .container {
   margin: 0 auto;
-  max-width: 740px;
-  padding: 0 10px;
+  max-width: 39rem;
+  padding: 0.5rem 1.25rem;
   width: 100%;
 }
 
@@ -314,7 +314,7 @@ img {
 //
 
 .wrapper-masthead {
-  margin-bottom: 50px;
+  // margin-bottom: 50px;
 }
 
 .masthead {
@@ -324,7 +324,7 @@ img {
   @include mobile {
     
     text-align: left;
-    padding: 20px 25px;
+    padding: 0 0 10px;
 
   }
 }
@@ -364,6 +364,7 @@ img {
   font-weight: 300;
   font-size: 35px;
   letter-spacing: 1px;
+  margin-top: 30px;
 }
 
 .site-description {
@@ -388,7 +389,7 @@ nav {
     float: none;
     margin-top: 14px;
     display: block;
-    font-size: 14px;
+    font-size: 16px;
   }
 
   a {
@@ -421,11 +422,9 @@ nav {
 
   @include mobile {
 
-    padding: 0 25px;
-
     h1{
 
-      font-size: 25px;
+      font-size: 1.625rem;
 
     }
 
@@ -435,7 +434,7 @@ nav {
   h1 {
     margin-bottom: .1em;
     font-family: "Kanit", "Spoqa Han Sans", "Source Sans Pro", "Apple SD Gothic Neo", "Nanum Barun Gothic", "Nanum Gothic", "Verdana", "Arial", "Dotum", sans-serif;
-    letter-spacing: 1px;
+    letter-spacing: 0.5px;
   }
 
   .date {
@@ -483,8 +482,8 @@ nav {
   font-weight: 300;
   padding: 2em 0;
   width: 100%;
-  display: inline-block;
-  font-size: 14px;
+  display: inline-block;    
+  font-size: 0.74rem;
 
   @include mobile {
     font-size: $small-font-size;
@@ -637,7 +636,6 @@ img.emoji {
 }
 
 .page{
-  padding: 0 25px;
 
   h1, h3{
 
