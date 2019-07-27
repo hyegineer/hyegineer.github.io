@@ -28,6 +28,8 @@ navigation:
     url: /archive
   - name: Tags
     url: /tags
+  - name: Theme
+    url: http://127.0.0.1:4000
 
 # Pagination
 paginate: 5
@@ -39,7 +41,7 @@ footer-links:
   email:
   facebook:
   flickr:
-  github: hyegineer
+  github: hyegineer/kiko-now
   googleplus: # anything in your profile username that comes after plus.google.com/
   instagram:
   linkedin:

@@ -1,14 +1,14 @@
 ---
 layout: post
-title:  "Welcome to Jekyll!"
+title:  "github 블로그 생성 성공!"
 date:   2019-07-27 02:37:59 +0900
 categories: jekyll update
 ---
-:laughing::laughing::laughing::laughing::laughing::laughing:
-You’ll find this post in your `_posts` directory. Go ahead and edit it and re-build the site to see your changes. You can rebuild the site in many different ways, but the most common way is to run `jekyll serve`, which launches a web server and auto-regenerates your site when a file is updated.
 
-To add new posts, simply add a file in the `_posts` directory that follows the convention `YYYY-MM-DD-name-of-post.ext` and includes the necessary front matter. Take a look at the source for this post to get an idea about how it works.
-
+`github`블로그 만들었땅 ㅎㅎ
+To add new posts, simply add a file in the `_posts` directory that follows the convention `YYYY-MM-DD-name-of-post.ext` and includes the necessary front matter. Take a look at the source for this post to get an idea about how it works.:laughing::laughing::laughing:
+:dizzy: :relaxed::relaxed::relaxed:
+:pray::pray::pray::pray::pray: :sunny::sunny::sunny:
 Jekyll also offers powerful support for code snippets:
 
 {% highlight ruby %}
