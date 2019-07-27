@@ -355,17 +355,16 @@ img {
   margin: 0;
   color: $darkGray;
   cursor: pointer;
-  font-family: $kanit;
+  font-family: $helveticaNeue;
   font-weight: 300;
-  font-size: 33px;
-  letter-spacing: 2px;
+  font-size: 28px;
+  letter-spacing: 1px;
 }
 
 .site-description {
   margin: -5px 0 0 0;
   color: $gray;
   font-size: 16px;
-  font-family: $sourceCode;
 
   @include mobile {
     margin: 3px 0;
@@ -375,8 +374,8 @@ img {
 nav {
   float: right;
   margin-top: 23px; // @TODO: Vertically middle align
-  font-family: $sourceCode;
-  font-size: 14px;
+  font-family: $helveticaNeue;
+  font-size: 18px;
 
   @include mobile {
     float: none;
@@ -390,10 +389,11 @@ nav {
     color: $darkGray;
     text-align: right;
     font-weight: 300;
+    letter-spacing: 1px;
 
     @include mobile {
       margin: 0 10px;
-      color: $orange;
+      color: $blue;
     }
   }
 }
@@ -412,8 +412,6 @@ nav {
 .post {
   h1 {
     margin-bottom: .1em;
-    font-family: 'Kanit', "Spoqa Han Sans", sans-serif;
-    letter-spacing: 1px;
   }
 
   .date {
@@ -421,7 +419,6 @@ nav {
     font-size: $small-font-size;
     color: $base-lighten-color;
     margin-right: 3px;
-    font-family: $sourceCode;
   }
 
   .tag {
