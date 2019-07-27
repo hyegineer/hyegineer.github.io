@@ -12,9 +12,10 @@ css3을 이용한 인터랙션 및 퍼포먼스 구현을 좋아합니다.<br>�
 ### What can I do
 
 :v: ```html5``` ```css5``` ```jquery```
+- resoponsive web publishing, mobile web aplication publishing
 <br>
 :ok_hand: Adobe photoshop, Adobe illustrator, Adobe XD <br>
-:raised_hands: Zeplin, Trello, Vscode 
+:raised_hands: Zeplin, Trello, Vscode, git
 
 ### Contact me
 
