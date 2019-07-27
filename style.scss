@@ -625,6 +625,28 @@ img.emoji {
   height: 18px;
 }
 
+.page{
+  padding: 0 25px;
+
+  h1, h3{
+
+    font-family: "Kanit", "Spoqa Han Sans", "Source Sans Pro", "Apple SD Gothic Neo", "Nanum Barun Gothic", "Nanum Gothic", "Verdana", "Arial", "Dotum", sans-serif;
+    letter-spacing: 1px;
+
+  }
+
+}
+
+.email{
+
+  a{
+
+    font-family: "Source Code Pro", monospace;
+
+  }
+
+}
+
 // Settled on moving the import of syntax highlighting to the bottom of the CSS
 // ... Otherwise it really bloats up the top of the CSS file and makes it difficult to find the start
 @import "highlights";
