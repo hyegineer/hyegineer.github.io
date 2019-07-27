@@ -320,7 +320,10 @@ img {
   border-bottom: 1px solid $lightGray;
 
   @include mobile {
-    text-align: center;
+    
+    text-align: left;
+    padding: 20px 25px;
+
   }
 }
 
@@ -369,6 +372,7 @@ img {
 
   @include mobile {
     margin: 3px 0;
+    font-size: 13px;
   }
 }
 
@@ -380,9 +384,9 @@ nav {
 
   @include mobile {
     float: none;
-    margin-top: 9px;
+    margin-top: 14px;
     display: block;
-    font-size: 16px;
+    font-size: 14px;
   }
 
   a {
@@ -393,7 +397,9 @@ nav {
 
     @include mobile {
       margin: 0 10px;
-      color: $blue;
+      color: #333;
+      margin: 0 10px 0px 0;
+      font-weight: bold;
     }
   }
 }
@@ -410,6 +416,20 @@ nav {
 }
 
 .post {
+
+  @include mobile {
+
+    padding: 0 25px;
+
+    h1{
+
+      font-size: 25px;
+
+    }
+
+
+  }
+
   h1 {
     margin-bottom: .1em;
     font-family: "Kanit", "Spoqa Han Sans", "Source Sans Pro", "Apple SD Gothic Neo", "Nanum Barun Gothic", "Nanum Gothic", "Verdana", "Arial", "Dotum", sans-serif;
