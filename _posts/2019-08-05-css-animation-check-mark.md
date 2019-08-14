@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "css animation으로 구현한 체크마크 애니메이션"
+title: "[CSS3] css animation으로 구현한 체크마크 애니메이션"
 date:   2019-08-05 11:13:00 +0900
 tags:
   - css

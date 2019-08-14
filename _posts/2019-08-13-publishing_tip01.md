@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "css3의 flex속성에 대한 고찰"
+title: "[CSS3] css3의 flex속성에 대한 고찰"
 date:   2019-08-13 16:00:00 +0900
 tags:
   - css

@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "jquery + css로 구현한 별점 주기"
+title: "[jQuery] jquery + css로 구현한 별점 주기"
 date:   2019-08-12 16:00:00 +0900
 tags:
   - jquery
