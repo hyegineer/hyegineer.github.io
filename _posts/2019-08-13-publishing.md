@@ -12,13 +12,13 @@ input 태그를 쓸 때, 가끔 input에 네임을 부여해서 스타일링을 
 하지만! name은 form태그로 값을 넘겨줄 때 개발자들이 직접 작성해야하는 거라 건들지 말라는 주의를 들었다!
 피와 되고 살이 되는 보건햄의 조언 끝 ㅎㅎ
 
-#사이트
+### 사이트
 
 [can I use](https://caniuse.com/)
 
 html, css, jquery, javascript등 브라우저별 호환여부를 검사해주는 사이트.
 
-##용어
+### 용어
 
 [holy grail layout](https://opentutorials.org/course/2473/13570)
 
