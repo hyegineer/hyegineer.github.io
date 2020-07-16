@@ -1,7 +1,7 @@
 ---
 layout: post
 title: "[javascript] 변수와 유효범위 scope"
-date:   2020-07-14 15:00:00 +0900
+date:   2020-07-15 15:00:00 +0900
 tags:
   - javascript
 ---
@@ -61,3 +61,30 @@ tags:
 #### 정적 유효범위 (lexical scoping)
 
 스코프는 함수를 호출할 때가 아니라 선언할 때 생김.
+
+```javascript
+  var i = 5;
+
+  function a(){
+    var i = 10; // 지역변수
+    b();
+    // 2. b 함수 내부의 i가 a 내부의 지역변수 10에 접근하는건 아니다. (선언할 때 유효범위가 생기기 때문에) 
+    // 4. 함수 b가 호출(사용)될 때가 아니고 정의될 때 i에는 전역변수가 사용됌. => 요런걸 정적유효범위라고 함
+  }
+
+  function b(){
+    document.write(i);
+  }
+  // 1. b 함수 내부에 i라고 하는 지역변수가 존재하는지 확인 후, 바깥범위의 전역변수를 찾음
+  // 3. 함수 b가 선언된 시점에서 i는 전역변수가 사용된다.
+
+  a(); // 출력은 5
+```
+
+함수가 정의되는 시점에서 변수를 바라보게 된다면, 누가 사용하건 상관없이 똑같은 결과를 갖고오기 때문에
+lexical scoping
+
+##### 출처
+[생활코딩 유튜브: JavaScript - 유효범위](https://www.youtube.com/watch?time_continue=315&v=kfIlysJAkBA&feature=emb_title)
+
+[제로초님 블로그: 함수의 범위(scope)](https://www.zerocho.com/category/JavaScript/post/5740531574288ebc5f2ba97e)
