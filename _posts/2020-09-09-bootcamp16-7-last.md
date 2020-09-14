@@ -10,7 +10,7 @@ tags:
 
 JSON(JavaScript Object Notation)은 속성-값 쌍으로 이루어진 데이터 오브젝트를 전달하기 위해 인간이 읽을 수 있는 텍스트를 사용하는 개방형 표준 포맷이다. 
 
-javascript 객체 일부 유형의 형식을 데이터포맷으로 만든거.
+javascript 객체 일부 유형의 형식을 데이터포맷으로 만든거. <br>
 손쉽게 다른쪽에서 읽을 수 있는. 모든 컴퓨터가 읽을 수 있는 plain text 파일로 읽을 수 있는 형식
 
 ```javascript
@@ -38,31 +38,32 @@ console.log(person);
 
 ```
 
-JSON 파일은 반드시 key를 더블쿼터("")로 감싸줘야한다.
-오른쪽 value값은 number, String, Boolean, Array, Object, null 만 지원
+JSON 파일은 반드시 key를 더블쿼터("")로 감싸줘야한다.<br>
+오른쪽 value값은 number, String, Boolean, Array, Object, null 만 지원<br>
 
-요것이 객체리터럴과 다른 점. 대표적으로 *함수가 없다
-밖으로 나갔을때는 데이터로써의 의미가 없고 다른 컴퓨터에서도
+요것이 객체리터럴과 다른 점. 대표적으로 *함수가 없다<br>
+밖으로 나갔을때는 데이터로써의 의미가 없고 다른 컴퓨터에서도<br>
 실행할 수 없다. 제일 극명하게 다른 점. 제이슨은 함수를 지원하지않습니다. 
 
-제이슨이 만들어진 이유는 
-자바스크립트의 객체를 json 포맷으로 손쉽게 내보내서
+제이슨이 만들어진 이유는 <br>
+자바스크립트의 객체를 json 포맷으로 손쉽게 내보내서<br>
 데이터를 사용할 수 있도록 하기위한것. 자바스크립트 객체를 위한 포맷
+<br><br>
+## json 중요한 이유
 
-json 중요한 이유
-server and client > cs 기법
-clinet 로부터 요청받은 데이터를 서빙(응답)하는 소프트웨어: server
-server 한테 요구하는 client
+server and client > cs 기법<br>
+clinet 로부터 요청받은 데이터를 서빙(응답)하는 소프트웨어: server<br>
+server 한테 요구하는 client<br>
 
 client software / server software 
 
 웹서버 <- 웹클라이언트
 
-client 는 종류가 많을 수 있다. web, app, android, iphone...
+client 는 종류가 많을 수 있다. web, app, android, iphone...<br>
 가장 많은 software client는 web client가 많다.
 
-예전엔 서버가 제공하는 데이터유형이 많았는데
-web client가 워낙에 많다보니 그냥 json 포맷을 많이 씀.
+예전엔 서버가 제공하는 데이터유형이 많았는데<br>
+web client가 워낙에 많다보니 그냥 json 포맷을 많이 씀.<br>
 서버가 다 json 포맷을 반환하니깐 그냥 기본 통신규격 데이터를 json으로 대동단결...
 
 단점은 텍스트포맷이기에 비대해지고, 자료형도 한계되있어서 그렇게 좋은건 아니지만,,, javascript client를 개발하는 입장에선 json이 대세니께 배우면 됍니다.
