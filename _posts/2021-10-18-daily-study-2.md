@@ -1,7 +1,7 @@
 ---
 layout: post
 title: "[javascript] 10-18 자바스크립트 스터디 - 표준내장객체"
-date:   2020-10-18 23:30:00 +0900
+date:   2021-10-18 23:30:00 +0900
 tags:
   - javascript
 ---
