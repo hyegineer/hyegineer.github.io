@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <script>
+        const something = document.createElement("p");
+
+        for (let i = 0; i < 5; i++) {
+            something.textContent += i;
+            document.body.appendChild(something);
+        }
+    </script>
+
+    <script>
+        for (let i = 0; i < 5; i++) {
+  const something = document.createElement("p");
+  something.textContent = i;
+  document.body.appendChild(something);
+}
+    </script>
+</body>
+</html>
