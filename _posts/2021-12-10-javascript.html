@@ -1,0 +1,31 @@
+---
+layout: post
+title: "[javascript] 12-10 innerHTML, textContent, innerText 간의 차이"
+date:   2021-12-10 16:17:00 +0900
+tags:
+  - javascript
+---
+
+사전학습 가이드의 ⚠️ How to tackle problems 서두에 있는 강의를 보다가,
+innerHTML보다 textContent를 쓰는게 좋다는 켄님의 조언이 귀에 유독 들어왔다.
+
+실무를 하면서 DOM의 text를 변경할 때는 innerHTML을 빈번하게 사용해왔던 나로써는
+또 새롭게 발견된 textContent! 
+거의 3년 가까이 일했는데, 이제서야 알게 된 게 약간 머쓱하기도...
+
+왜 innerHTML보다 textContent가 더 나을까?
+
+1. 브라우저에서는 textContent의 값을 text/plain으로 파싱하는데, 이게 다른 innerHTML, innerText보다 파싱이 빨리 성능면에서 좋다.
+innerHTML은 text/html로 파싱을 하게 되어 상대적으로 느리다고 한다. (하지만 큰 차이는 없다고 하네)
+
+2. innerHTML 같은 경우  XSS 공격에 취약, 즉 보안에 취약하다는 단점이 있다고 한다. 
+html 태그 중 script 태그를 삽입해서 실행하게 되면 공격을 받게되는 경우가 있는데 
+물론 HTML5에서 innerHTML의 script는 실행되지않도록 지정해놓았다고 한다.
+
+찾아볼 수록 새로운걸 알 수 있는 자바스크립트의 세계~
+
+매번 같은 방법으로 '돌아는 가네'식의 코드를 짰던 나의 모습을 조금은 경계하고
+이렇게 공부를 하면서 새로운 방법을 적용해보면서 짜보던가, 
+아니면 다른 사람의 의도를 폭넓게 이해할 수 있는 기회를 좀 가져야겠다! 
+
+[출처: 당신이 innerHTML을 쓰면 안되는 이유](https://velog.io/@raram2/%EB%8B%B9%EC%8B%A0%EC%9D%B4-innerHTML%EC%9D%84-%EC%93%B0%EB%A9%B4-%EC%95%88%EB%90%98%EB%8A%94-%EC%9D%B4%EC%9C%A0)
